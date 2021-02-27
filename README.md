@@ -1,4 +1,4 @@
-
+```javascript
 const configureClient = async () => {
     const response = await fetchAuthConfig();
     const config = await response.json();
@@ -7,4 +7,4 @@ const configureClient = async () => {
         domain: config.domain,
         client_id: config.clientId
     });
-};
+};```
